@@ -1,0 +1,16 @@
+<article class="case-study">
+    <aside class="case-study-sidebar">
+         <h2>MailChimp Campaign</h2>
+         <h4>Content Strategy, Design & Development</h4>
+         <h4><span>Client: MailChimp</span></h4>
+         <p>This is a project I made for this company. Here is the early stage startup that I helped design and do front-end and back-end dev for.</p>
+         <p class="read-more-link"><a href="#">Visit Live Site &rsaquo;</a></p>
+    </aside>    
+<div class="case-study-images">
+
+<a href="http://localhost/accelerate/wp-content/uploads/2020/05/mc-thumbnail-1.png"><img src="http://localhost/accelerate/wp-content/uploads/2020/05/mc-thumbnail-1-300x221.png" alt="" width="300" height="221" class="alignnone size-medium wp-image-47336" /></a>
+
+<a href="http://localhost/accelerate/wp-content/uploads/2020/05/mc-thumbnail-2.png"><img src="http://localhost/accelerate/wp-content/uploads/2020/05/mc-thumbnail-2-223x300.png" alt="" width="223" height="300" class="alignnone size-medium wp-image-47337" /></a>
+
+<a href="http://localhost/accelerate/wp-content/uploads/2020/05/mc-thumbnail-3.png"><img src="http://localhost/accelerate/wp-content/uploads/2020/05/mc-thumbnail-3-150x300.png" alt="" width="150" height="300" class="alignnone size-medium wp-image-47338" /></a>
+</div>

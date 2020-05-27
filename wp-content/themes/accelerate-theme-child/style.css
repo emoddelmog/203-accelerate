@@ -21,21 +21,48 @@ Text Domain:  accelerate-theme-child
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
-.blog-post  {
-	width: 50%;
-	float: left;
-	margin-bottom: 2em;
+/*  Featured work on homepage  */
+
+.featured-work .site-content  {
+	margin: 6em auto;
 }
+
+.featured-work h4  {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 2.25em;
+}
+
+.homepage-featured-work  {
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.individual-featured-work  {
+	margin-bottom:  2em;
+}
+
+.individual-featured-work a {
+	display: block;
+}
+
+.individual-featured-work h3  {
+	font-weight: 500;
+}
+
+/*  Blog post of homepage  */
 
 .blog-post h4  {
-	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
-    text-transform: uppercase;
-    margin: 2em 0 .5em;
+	font-weight: 700
+	text-transform: uppercase;
 }
-
 .blog-post h3 {
 	font-size: 1.5em;
+
 }
 
 .read-more-link {
@@ -44,3 +71,17 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+aside.case-study-sidebar  {
+	float: left;
+	width: 300px;
+	padding-right: 20px;
+}
+
+div.case-study-images {
+	float: left;
+	width: 600px;
+	padding: 20px;
+}
+
+
