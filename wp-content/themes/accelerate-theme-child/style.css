@@ -55,12 +55,17 @@ Text Domain:  accelerate-theme-child
 /*  Blog post of homepage  */
 
 .blog-post h4  {
+	color: #a6a6a6;
 	font-weight: 700
 	text-transform: uppercase;
 }
 .blog-post h3 {
 	font-size: 1.5em;
 
+}
+
+h4  {
+	color: #acacac;
 }
 
 /*  Case Studies Archive  */
@@ -106,9 +111,18 @@ div.case-study-images {
 	padding: 20px;
 }
 
+#menu-social-media-nav  {
+	list-style: none;
+	float: left;
+	display: flex;
+}
 
-
-.case-studies-sidebar h2  {
+#menu-social-media-nav li  {
+	flex-direction: row;
+	justify-content: space-between;
+	width: 40%;
+	padding-left: 20px;
+	margin: 0;
 
 }
 
