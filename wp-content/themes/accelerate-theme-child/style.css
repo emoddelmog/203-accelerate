@@ -15,6 +15,8 @@ Text Domain:  accelerate-theme-child
 
 #masthead {
   	background: none repeat scroll 0 0 #45ac9d;
+  	height: 60px;
+
 }
 
 .button {
@@ -80,12 +82,15 @@ h4  {
 
 aside.case-study-sidebar {
 	float: left;
-	width: 300px;
+	width: 400px;
 	padding-right: 20px;
 }
 
 aside.case-study-sidebar p  {
 	font-family: 'Open Sans';
+	padding-top: 15px;
+	width: 300px;
+	margin: 0;
 }
 
 aside.case-study-sidebar h2  {
@@ -94,6 +99,7 @@ aside.case-study-sidebar h2  {
 	color: #2F4F4F;
 	font-size: 1.25em;
 	line-height: 2px;
+	padding-top: 30px;
 }
 
 aside.case-study-sidebar h5  {
@@ -126,4 +132,175 @@ div.case-study-images {
 
 }
 
+/*   Contact Page   */
 
+#primary .site-content-sidebar
+#primary .site-content-sidebar h2
+#primary .site-content-sidebar p {
+	width: 50%;
+	font-style: 'Montserrat';
+
+} 
+
+.contact h2  {
+	font-size: 1.5em;
+}
+
+#nf-field-12  {
+	background: #45ac9d;
+	float: right;
+	width: 33.3%;
+}
+
+/*   About   */
+
+#hero  {
+	background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	background-size: cover;
+	height: 370px;
+	
+}
+
+.hero-text h2  {
+	font-size: 1.5em;
+	padding: 30px 200px;
+	margin: 30px 150px;
+	color: white;
+	line-height: 35px;
+}
+
+.service  {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.service p  {
+	font-size: .80em;
+	margin-right: 20px;
+}
+
+.service h3  {
+	font-size: .80em;
+	text-transform: uppercase;
+	
+}
+
+#about {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 150px;
+
+}
+
+.content-strategy  {
+	padding-right: 50px;
+	padding-left: 20px;
+
+}
+
+.content-strategy h2  {
+	font-size: 1.25em;
+
+}
+
+.content-strategy-image  {
+	width: 250px;
+	padding: 40px 60px;
+	margin-left: auto;
+
+}
+
+#influence {
+	display: flex;
+	flex-direction: row;
+	padding: 0 80px;
+	margin: 0 60px;
+
+}
+
+.influencer-mapping  {
+	margin: 0 50px;
+}
+
+.influencer-mapping h2  {
+	font-size: 1.25em;
+
+}
+
+.influencer-mapping-image  {
+	padding-top: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	width: 400px;
+}
+
+#social {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 0 80px;
+	margin: 0 60px;
+
+}
+
+.social-media-strategy  {
+	margin: 0 50px;
+}
+
+.social-media-strategy h2  {
+	font-size: 1.25em;
+
+}
+
+.social-media-strategy-image  {
+	padding-top: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	width:400px;
+
+}
+
+#design {
+	display: flex;
+	flex-direction: row;
+	padding: 0 80px;
+	margin: 0 60px;
+	margin-bottom: 45px;
+	border-bottom: 1px solid #D3D3D3;
+
+}
+
+.design-and-development  {
+	margin: 0 50px;
+	padding-bottom: 30px;
+}
+
+.design-and-development h2  {
+	font-size: 1.25em;
+
+}
+
+.design-and-development-image  {
+	padding-top: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	width: 400px;
+}
+
+#contact p {
+	display: inline-flex;
+	margin: 0 50px;
+	padding-left: 375px;
+	padding-bottom: 30px;
+	
+}
+	
+.contact-button .button  {
+	display: inline-flex;
+	margin-right: 20px;
+	border-bottom: 1px solid;
+	border-color: #D3D3D3;
+
+}
