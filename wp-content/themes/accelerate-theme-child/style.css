@@ -26,14 +26,14 @@ Text Domain:  accelerate-theme-child
 /*  Featured work on homepage  */
 
 .featured-work .site-content  {
-	margin: 6em auto;
+	margin: 3em auto;
 }
 
 .featured-work h4  {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 2.25em;
+	margin: 1em;
 }
 
 .homepage-featured-work  {
@@ -54,12 +54,58 @@ Text Domain:  accelerate-theme-child
 	font-weight: 500;
 }
 
+.service-icons .images {
+	margin: 6em auto;
+}
+
+.images h4  {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 1em;
+}
+
+.homepage-services  {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	list-style: none;
+	margin: 40px;
+	padding-left: 120px;
+}
+
+.homepage-services {
+	float: left;
+	width: 79%;
+	margin-left: 5%;
+	padding-bottom: 40px;
+}
+
+.homepage-services figcaption  {
+	padding-left: 39px;
+}
+
+.homepage-services .design figcaption  {
+	padding-left: 15px;
+}
+
+.homepage-services .like figcaption  {
+	padding-left: 22px;
+}
+
+.homepage-services .atom figcaption  {
+	padding-left: 35px;
+}
+
 /*  Blog post of homepage  */
 
 .blog-post h4  {
 	color: #a6a6a6;
 	font-weight: 700
 	text-transform: uppercase;
+	padding-top: 200px;
+	padding-right: 100px;
+
 }
 .blog-post h3 {
 	font-size: 1.5em;
@@ -188,7 +234,7 @@ div.case-study-images {
 #about {
 	display: flex;
 	flex-direction: row-reverse;
-	margin-right: 150px;
+	margin-right: 280px;
 
 }
 
@@ -204,7 +250,7 @@ div.case-study-images {
 }
 
 .content-strategy-image  {
-	width: 250px;
+	width: 275px;
 	padding: 40px 60px;
 	margin-left: auto;
 
@@ -303,4 +349,12 @@ div.case-study-images {
 	border-bottom: 1px solid;
 	border-color: #D3D3D3;
 
+}
+
+#lost h1  {
+	text-align: center;
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+	font-size: 2em;
+	color: blue;
+	font-weight: 400;
 }

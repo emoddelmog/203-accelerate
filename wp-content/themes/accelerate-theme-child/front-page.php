@@ -49,6 +49,29 @@ get_header(); ?>
 		</div>
 
 	</section>
+    <section class="service-icons">
+        <div class="images">
+            <h4>Our Services</h4>
+            <ul class="homepage-services">
+              <figure class="bullseye">
+                <img src="http://www.emilymoddelmog.com/wp-content/uploads/2020/06/bullseye.png">
+                <figcaption>Content Strategy</figcaption>
+              </figure>
+              <figure class="atom">
+                <img src="http://www.emilymoddelmog.com/wp-content/uploads/2020/06/atom.png">
+                <figcaption>Influencer Mapping</figcaption>
+              </figure>
+              <figure class="like">
+                <img src="http://www.emilymoddelmog.com/wp-content/uploads/2020/06/like.png">
+                <figcaption>Social Media Strategy</figcaption>
+              </figure>
+              <figure class="design">
+                <img src="http://www.emilymoddelmog.com/wp-content/uploads/2020/06/design.png">
+                <figcaption>Design and Development</figcaption>
+              </figure>                
+            </ul> 
+        </div>
+    </section>
 
 	<!-- RECENT BLOG POST -->
 	<section class="recent-posts">
@@ -58,13 +81,12 @@ get_header(); ?>
     			<?php query_posts('posts_per_page=1'); ?>
     				  	<?php while ( have_posts() ) : the_post(); ?>
     						<h3><?php the_title(); ?></h3>
-       						<?php the_excerpt(); ?> 
+       						<?php the_excerpt(); ?>
+                         
     					<?php endwhile; ?>
-    				
-    			<?php wp_reset_query(); ?>
+                <?php wp_reset_query(); ?>                          			    		
     		</div>
  		 </div>
 	</section>
-		
 
 	<?php get_footer(); ?>
